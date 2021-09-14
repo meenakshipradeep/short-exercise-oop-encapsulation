@@ -30,8 +30,16 @@ Use the following questions to guide your exploration and learning! 🗺
 - Look at the `DodgyBankAccount`, this class is not well-encapsulated.
   Can you note down the problems with how the class is designed, and the ways it is being misused?
   
+  Class Variables of Dodgybankaccount  are public. Account no,Balance and Reward no should be private.
+  Public variables can be accessed and modified outside the class.
+  AddReward Method also public.Can be accessed and modified outside the class.
 
 - Compare and contrast the `DodgyBankAccount` and the `SecureBankAccount`, how is the `SecureBankAccount` different to 
 the `DodgyBankAccount`? How is it designed to prevent it from being misused? Are there instances of better method names
   for clearer abstraction?
+  
+  Class variables are private in SecureBankAccount. Encapsulation has been applied here.
+  DodgyBankAccount method variables are public instead of private.
+  
+  DebitAmount and AddReward methods are common in both the classes. Can be moved to Base class.
   
