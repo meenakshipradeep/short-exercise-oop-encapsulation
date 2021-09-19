@@ -2,9 +2,9 @@ package com.techreturners.encapsulation.bankaccount.model;
 
 public class DodgyBankAccount {
 
-    public String accountNumber;
-    public int accountBalance;
-    public int rewardAmount = 50;
+    private final String accountNumber;
+    private int accountBalance;
+    private final int rewardAmount = 50;
 
     public DodgyBankAccount(String accountNumber) {
         this.accountNumber = accountNumber;
@@ -24,7 +24,7 @@ public class DodgyBankAccount {
         accountBalance -= amount;
     }
 
-    public void addReward() {
+    private void addReward() {
         accountBalance += rewardAmount;
     }
 

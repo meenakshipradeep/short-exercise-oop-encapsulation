@@ -24,15 +24,15 @@ public class Main {
         System.out.println("Wow! Looks like we get a reward of 50 when we deposit an amount");
 
         System.out.println("Let's be naughty and add rewards without depositing!");
-        myDodgyBankAccount.addReward();
-        myDodgyBankAccount.addReward();
-        myDodgyBankAccount.addReward();
-        myDodgyBankAccount.getAccountBalance();
+        //myDodgyBankAccount.addReward();
+        //myDodgyBankAccount.addReward();
+        //myDodgyBankAccount.addReward();
+        //myDodgyBankAccount.getAccountBalance();
 
         System.out.println("Wow! We're rich!");
 
         System.out.println("Let's make a lot of money right now! Let's change the account balance directly!");
-        myDodgyBankAccount.accountBalance = 1000000;
+       // myDodgyBankAccount.accountBalance = 1000000;
         myDodgyBankAccount.getAccountBalance();
         System.out.println("😻 Weeeeee!!!!\n");
 
